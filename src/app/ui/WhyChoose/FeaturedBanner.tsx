@@ -9,11 +9,11 @@ export const FeaturedBanner: React.FC = () => {
         <div className="px-7 pt-6 max-md:px-5 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col">
             <div className="w-6/12 max-md:ml-0 max-md:w-full">
-              <div className="flex z-10 flex-col justify-center self-stretch my-auto mr-0 w-full max-md:mt-10 max-md:max-w-full">
+              <div className="flex z-10 flex-col justify-center self-stretch my-auto mr-0 w-full max-md:mt-10 max-md:max-w-full md:pb-2">
                 <h2 className="text-4xl font-bold text-white">
                   Gia nhập cộng đồng FMRP – Kết nối, chia sẻ, cùng phát triển!
                 </h2>
-                <button className="flex gap-8 items-center self-start px-6 py-2 mt-8 border-2 border-solid border-white rounded-[40px] max-md:px-5">
+                <button className="flex gap-8 items-center self-start  px-6 py-2 mt-8 border-2 border-solid border-white rounded-[40px] max-md:px-5">
                   <span className="self-stretch my-auto text-sm font-bold text-white capitalize">
                     tham gia ngay
                   </span>
